@@ -1,4 +1,5 @@
 import bcrypt from 'bcrypt';
+import { config } from 'dotenv';
 import jwt from 'jsonwebtoken';
 import User from '../models/usermodel.js';
 import {createError} from '../utils/error.js';
@@ -30,14 +31,19 @@ export const login = async(req, res, next)=>{
         const isPasswordCurrent = await bcrypt.compare(req.body.password,
             user.password);
             if(!isPasswordCurrent) return next(createError(400, "Wrong username or password!"));
-            //const {password, isAdmin, ...otherDetails} = user.doc;
-            //res.status(200).json({...otherDetails});
+            const token = jwt.sign({id: user._id,  isAdmin:user.isAdmin}, 
+                config.JWT_SECRET);
+
+             /* res.cookie("access_token", token, {
+                httpOnly: true,
+              }).status(200).json(user); */           
             
+              const {password, isAdmin, ...otherDatails} = user._doc;
+              res.cookie("access_token", token, {
+                httpOnly: true,})
+              .status(200).json({...otherDatails});
     }
     catch(err){
     next(err)
     }
-}
-export const home = async(req, res, next)=>{
-    res.send("hi")
 }
