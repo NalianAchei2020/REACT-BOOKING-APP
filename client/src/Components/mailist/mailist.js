@@ -1,4 +1,4 @@
-import "./mailList.css"
+import "./mailist.css"
 
 const MailList = () => {
   return (
