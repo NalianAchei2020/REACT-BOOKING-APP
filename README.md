@@ -52,12 +52,8 @@ _[REAXT-BOOKING-APP]_ is a React and Node js project
 - _check-out_
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<<<<<<< HEAD
 
-- [Live Demo ](https://nalianachei2020.github.io/Portfolio/)
-=======
 Comming Soon
->>>>>>> d9caf349d73540802254557f8c629c680b40c67e
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
