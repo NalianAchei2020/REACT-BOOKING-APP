@@ -32,12 +32,7 @@ export const login = async(req, res, next)=>{
             user.password);
             if(!isPasswordCurrent) return next(createError(400, "Wrong username or password!"));
             const token = jwt.sign({id: user._id,  isAdmin:user.isAdmin}, 
-                config.JWT_SECRET);
-
-             /* res.cookie("access_token", token, {
-                httpOnly: true,
-              }).status(200).json(user); */           
-            
+                config.JWT_SECRET);           
               const {password, isAdmin, ...otherDatails} = user._doc;
               res.cookie("access_token", token, {
                 httpOnly: true,})
