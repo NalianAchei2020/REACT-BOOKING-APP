@@ -32,8 +32,8 @@
 
 # 📖 REACT-BOOKING-APP <a name="about-project"></a>
 
-RAECT-BOOKING-APP is project for boking hotel rooms in cities 
-*[REAXT-BOOKING-APP]* is a React and Node js project
+RAECT-BOOKING-APP is project for boking hotel rooms in cities
+_[REAXT-BOOKING-APP]_ is a React and Node js project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,14 +42,14 @@ RAECT-BOOKING-APP is project for boking hotel rooms in cities
 - React
 - Node js
 
-
 ### Key Features <a name="key-features"></a>
 
-- *Hotel list*
-- *check-in*
-- *check-out*
+- _Hotel list_
+- _check-in_
+- _check-out_
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 - [Live Demo ](https://nalianachei2020.github.io/Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -68,6 +68,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 sh
+
 - Create a folder
 - cd in to folder you just created
 - Type git clone https://github.com/NalianAchei2020/REACT-BOOKING-APP
@@ -75,6 +76,7 @@ sh
 ### Install
 
 Install this project with:
+
 - cmd or vscode terminal
 - Install node js if you have not install
 - Go to your terminal and cd to folder, type npm install. This will install all the npm dependencies
@@ -82,17 +84,19 @@ Install this project with:
 ### Usage
 
 To run the project, type '' npm start '' on the terminal
+
 ### Deployment
 
 You can deploy this project using:
 
- - render
- - netlify
- - vercel
+- render
+- netlify
+- vercel
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Nalian Achei*
+👤 _Nalian Achei_
+
 - Github: [@NalianAchei2020](https://github.com/NalianAchei2020)
 - Linkedin: [Nalian Achei](https://www.linkedin.com/in/nalian-achei-683208275)
 - Twitter: [@NalianAchei](https://twitter.com/NalianAchei?t=E3ePLcJ7B45dBa8SBFIXDg&s=09)
