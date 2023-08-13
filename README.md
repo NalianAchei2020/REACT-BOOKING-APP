@@ -35,6 +35,9 @@
 RAECT-BOOKING-APP is project for boking hotel rooms in cities
 _[REAXT-BOOKING-APP]_ is a React and Node js project
 
+![image](https://github.com/NalianAchei2020/REACT-BOOKING-APP/assets/88759996/dd1d9bcf-2b1a-43c0-b0a1-33698a2c5c01)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -49,8 +52,12 @@ _[REAXT-BOOKING-APP]_ is a React and Node js project
 - _check-out_
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+<<<<<<< HEAD
 
 - [Live Demo ](https://nalianachei2020.github.io/Portfolio/)
+=======
+Comming Soon
+>>>>>>> d9caf349d73540802254557f8c629c680b40c67e
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
